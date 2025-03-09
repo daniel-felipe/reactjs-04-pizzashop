@@ -12,7 +12,7 @@ export function DayOrdersAmountCard() {
         <span className="font-bold text-2xl tracking-tight">12</span>
         <p className="text-muted-foreground text-xs">
           <span className="text-rose dark:text-rose-400">-4%</span> em relação a
-          otem
+          ontem
         </p>
       </CardContent>
     </Card>
