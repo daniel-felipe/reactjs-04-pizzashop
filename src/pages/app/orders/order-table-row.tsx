@@ -30,7 +30,6 @@ export function OrderTableRow({ order }: OrderTableRowProps) {
               <span className="sr-only">Detalhes do pedido</span>
             </Button>
           </DialogTrigger>
-
           <OrderDetails />
         </Dialog>
       </TableCell>
