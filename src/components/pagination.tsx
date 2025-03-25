@@ -59,7 +59,7 @@ export function Pagination({
             disabled={pages <= pageIndex + 1}
           >
             <ChevronRight className="size-4" />
-            <span className="sr-only">Página posterior</span>
+            <span className="sr-only">Próxima página</span>
           </Button>
 
           <Button
