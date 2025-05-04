@@ -24,7 +24,7 @@ const orders: Orders = Array.from({ length: 40 }).map((_, i) => {
 })
 
 export const getOrdersMock = http.get<never, never, GetOrdersResponse>(
-  'orders',
+  '/orders',
   async ({ request }) => {
     const { searchParams } = new URL(request.url)
 
