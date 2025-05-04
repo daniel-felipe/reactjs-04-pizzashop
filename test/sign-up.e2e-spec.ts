@@ -25,7 +25,7 @@ test('sign up with error', async ({ page }) => {
     .fill('Invalid Name')
   await page.getByRole('textbox', { name: 'Seu nome' }).fill('John Doe')
   await page.getByRole('textbox', { name: 'Seu e-mail' }).fill('john@doe.com')
-  await page.getByRole('textbox', { name: 'Seu celular' }).fill('12345678')
+  await page.getByRole('textbox', { name: 'Seu celular' }).fill('12345679')
 
   page.getByRole('button', { name: 'Finalizar cadastro' }).click()
 
